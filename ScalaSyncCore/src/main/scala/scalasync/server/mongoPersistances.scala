@@ -1,4 +1,4 @@
-package scalasync.server
+package scalasync.core.server
 
 
 

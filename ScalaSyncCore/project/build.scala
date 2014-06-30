@@ -4,7 +4,7 @@ import Keys._
 object ScalasyncserverBuild extends Build {
   val Organization = "org.scalasync"
   val Name = "ScalaSyncCore"
-  val Version = "0.1.0-SNAPSHOT"
+  val Version = "0.1.0"
   val ScalaVersion = "2.10.4"
   
   lazy val project = Project (
@@ -20,10 +20,12 @@ object ScalasyncserverBuild extends Build {
 
       libraryDependencies ++= Seq(
       "org.scalacheck" %% "scalacheck" % "1.10.0" % "test",
-      "org.specs2" %% "specs2" % "1.1.3",
+      "org.specs2" %% "specs2" % "1.13",
       "org.scalatest" %% "scalatest" % "2.0.M5b",
       "com.github.tototoshi" %% "play-json4s-native" % "0.1.0",
       "com.github.tototoshi" %% "play-json4s-test-native" % "0.1.0" % "test",
+      "com.github.tototoshi" %% "play-json4s-jackson" % "0.1.0",
+      "com.github.tototoshi" %% "play-json4s-test-jackson" % "0.1.0" % "test",
       "com.github.scala-incubator.io" %% "scala-io-core" % "0.4.2",
       "com.github.scala-incubator.io" %% "scala-io-file" % "0.4.2",
       "com.typesafe.akka" % "akka-actor_2.10" % "2.3.2",
