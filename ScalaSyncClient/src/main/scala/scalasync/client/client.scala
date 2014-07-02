@@ -1,17 +1,75 @@
 package scalasync.client
 
-import java.io.File
-import scalasync.core.RepoClient
+
+import dispatch._
+
+import scala.io._
+
+import scalasync.core.{RepoFile, RepoClient}
+/*
+host("api.wunderground.com") / "api" / "5a7c66db0ba0323a" /
+"conditions" / "q" / loc.state / (loc.city + ".xml")
+  Http(weatherSvc(loc) OK as.xml.Elem).option
+
+al result = Http(req OK as.String).either
+And then use it like this, for example:
+
+result() match {
+  case Right(content)         => println("Content: " + content)
+  case Left(StatusCode(404))  => println("Not found")
+  case Left(StatusCode(code)) => println("Some other code: " + code.toString)
+}
+
+http://blog.knoldus.com/2013/07/30/integrating-google-drive-infrastructure-in-play-scala-application/
+
+val post = :/("localhost") << Map(
+  "commit" -> "true",
+  ) << ("filename", new java.io.File("path/to/file"))
+
+val http = new dispatch.Http
+http(post >>> System.out)
+
+  val post = server << Map(
+    "id" -> "42",
+  ) << ("name","filename", getStream)
+*/
+trait dispatchSupport {
+  import scala.concurrent.ExecutionContext.Implicits.global
+
+  def postFile(rf:RepoFile)={
+ /*   val myRequest = url("http://127.0.0.1:8080/upload")
+    myRequest.POST
+    myRequest.setContentType("multipart/form-data","UTF8")
+    //<< Map("filename" -> rf.sum)
+    myRequest.addBodyPart(new FilePart("file",new java.io.File("/home/eric/devel/scalasync/ScalaSyncClient/testset3/ajax-loader.gif"))) /*<<  Map(
+      "id" -> "42"
+      ) << ("file", getStream(rf.indep_path))*/
+    //val r =dispatch.Http(myRequest OK as.String).option
+*/
+    val local: Req = host("127.0.0.1", 8080)
+    val encoded:Req = local.setContentType("multipart/form-data", "UTF-8").setHeader("Transfer-Encoding", "chunked").POST / "upload"
+    import com.ning.http.multipart.FilePart
+    val filed: Req = encoded.addBodyPart(new FilePart("file", new java.io.File("/home/eric/devel/scalasync/ScalaSyncClient/testset3/ajax-loader.gif")))
+
+    val f = Http(filed)
+    val c = f()
+    println(c)
+
+  }
+  def getStream (x:String)=	new  java.io.FileInputStream(new java.io.File(x))
 
 
-object Client extends App{
+}
+object Client extends App with dispatchSupport{
 
   println("yahoo")
+  syncUp
+
   def syncUp ={
-    val repo = RepoClient(new File("./testset3"))
+    val repo = RepoClient(new java.io.File("./testset3"))
     repo.scanFs()
     println("######> scan completed")
-    val repo_old = RepoClient(new File("./testset3"))
+    val repo_old = RepoClient(new java.io.File("./testset3"))
     repo_old.unSerializeFrom("/tmp/old.js")
     println("######> got old repo")
     val changeset =repo.diff(repo_old)
@@ -25,6 +83,7 @@ object Client extends App{
           {
             println("sending :"+fileToSend.filename+":"+fileToSend.sum)
             //clientActor ! doSend(fileToSend)
+            postFile(fileToSend)
           }
 
         }

@@ -19,6 +19,7 @@ object ScalasyncserverBuild extends Build {
       resolvers += "Casbah " at "https://oss.sonatype.org/content/repositories/releases/",
 
       libraryDependencies ++= Seq(
+      "net.databinder.dispatch" %% "dispatch-core" % "0.11.1",
       "org.scalacheck" %% "scalacheck" % "1.10.0" % "test",
       "org.specs2" %% "specs2" % "1.13",
       "org.scalatest" %% "scalatest" % "2.0.M5b",

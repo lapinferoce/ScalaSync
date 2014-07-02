@@ -2,37 +2,26 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee7d7fa2-a90b-408b-9d4d-9f0473dd0543" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_scala_lang_scala_library_2_10_4.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_scalasync_scalasynccore_2_10_0_1_0.xml" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../ScalaSyncCore/old_build.sbt" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ScalaSyncCore/.gitignore" afterPath="$PROJECT_DIR$/../ScalaSyncCore/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ScalaSyncCore/.idea/libraries/SBT__com_github_nscala_time_nscala_time_2_10_0_2_0.xml" afterPath="$PROJECT_DIR$/../ScalaSyncCore/.idea/libraries/SBT__com_github_nscala_time_nscala_time_2_10_0_2_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ScalaSyncCore/.idea/libraries/SBT__com_github_scala_incubator_io_scala_io_core_2_10_0_4_2.xml" afterPath="$PROJECT_DIR$/../ScalaSyncCore/.idea/libraries/SBT__com_github_scala_incubator_io_scala_io_core_2_10_0_4_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ScalaSyncCore/.idea/libraries/SBT__com_github_scala_incubator_io_scala_io_file_2_10_0_4_2.xml" afterPath="$PROJECT_DIR$/../ScalaSyncCore/.idea/libraries/SBT__com_github_scala_incubator_io_scala_io_file_2_10_0_4_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ScalaSyncCore/.idea/libraries/SBT__com_github_tototoshi_play_json4s_core_2_10_0_1_0.xml" afterPath="$PROJECT_DIR$/../ScalaSyncCore/.idea/libraries/SBT__com_github_tototoshi_play_json4s_core_2_10_0_1_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ScalaSyncCore/.idea/libraries/SBT__com_github_tototoshi_play_json4s_native_2_10_0_1_0.xml" afterPath="$PROJECT_DIR$/../ScalaSyncCore/.idea/libraries/SBT__com_github_tototoshi_play_json4s_native_2_10_0_1_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ScalaSyncCore/.idea/libraries/SBT__com_jsuereth_scala_arm_2_10_1_3.xml" afterPath="$PROJECT_DIR$/../ScalaSyncCore/.idea/libraries/SBT__com_jsuereth_scala_arm_2_10_1_3.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ScalaSyncCore/.idea/libraries/SBT__com_thoughtworks_paranamer_paranamer_2_5_2.xml" afterPath="$PROJECT_DIR$/../ScalaSyncCore/.idea/libraries/SBT__com_thoughtworks_paranamer_paranamer_2_5_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ScalaSyncCore/.idea/libraries/SBT__joda_time_joda_time_2_1.xml" afterPath="$PROJECT_DIR$/../ScalaSyncCore/.idea/libraries/SBT__joda_time_joda_time_2_1.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ScalaSyncCore/.idea/libraries/SBT__org_joda_joda_convert_1_2.xml" afterPath="$PROJECT_DIR$/../ScalaSyncCore/.idea/libraries/SBT__org_joda_joda_convert_1_2.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ScalaSyncCore/.idea/libraries/SBT__org_json4s_json4s_ast_2_10_3_1_0.xml" afterPath="$PROJECT_DIR$/../ScalaSyncCore/.idea/libraries/SBT__org_json4s_json4s_ast_2_10_3_1_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ScalaSyncCore/.idea/libraries/SBT__org_json4s_json4s_core_2_10_3_1_0.xml" afterPath="$PROJECT_DIR$/../ScalaSyncCore/.idea/libraries/SBT__org_json4s_json4s_core_2_10_3_1_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ScalaSyncCore/.idea/libraries/SBT__org_json4s_json4s_native_2_10_3_1_0.xml" afterPath="$PROJECT_DIR$/../ScalaSyncCore/.idea/libraries/SBT__org_json4s_json4s_native_2_10_3_1_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ScalaSyncCore/.idea/libraries/SBT__org_mongodb_casbah_commons_2_10_2_5_0.xml" afterPath="$PROJECT_DIR$/../ScalaSyncCore/.idea/libraries/SBT__org_mongodb_casbah_commons_2_10_2_5_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ScalaSyncCore/.idea/libraries/SBT__org_scala_lang_scalap_2_10_0.xml" afterPath="$PROJECT_DIR$/../ScalaSyncCore/.idea/libraries/SBT__org_scala_lang_scalap_2_10_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ScalaSyncCore/.idea/libraries/SBT__org_scalatest_scalatest_2_10_2_0_M5b.xml" afterPath="$PROJECT_DIR$/../ScalaSyncCore/.idea/libraries/SBT__org_scalatest_scalatest_2_10_2_0_M5b.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ScalaSyncCore/.idea/libraries/SBT__org_slf4j_slf4j_api_1_6_0.xml" afterPath="$PROJECT_DIR$/../ScalaSyncCore/.idea/libraries/SBT__org_slf4j_slf4j_api_1_6_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ScalaSyncCore/.idea/libraries/SBT__org_specs2_scalaz_concurrent_2_10_7_0_0.xml" afterPath="$PROJECT_DIR$/../ScalaSyncCore/.idea/libraries/SBT__org_specs2_scalaz_concurrent_2_10_7_0_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ScalaSyncCore/.idea/libraries/SBT__org_specs2_scalaz_core_2_10_7_0_0.xml" afterPath="$PROJECT_DIR$/../ScalaSyncCore/.idea/libraries/SBT__org_specs2_scalaz_core_2_10_7_0_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ScalaSyncCore/.idea/libraries/SBT__org_specs2_scalaz_effect_2_10_7_0_0.xml" afterPath="$PROJECT_DIR$/../ScalaSyncCore/.idea/libraries/SBT__org_specs2_scalaz_effect_2_10_7_0_0.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ScalaSyncCore/.idea/libraries/SBT__org_specs2_specs2_2_10_1_13.xml" afterPath="$PROJECT_DIR$/../ScalaSyncCore/.idea/libraries/SBT__org_specs2_specs2_2_10_1_13.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ScalaSyncCore/.idea/libraries/SBT__org_uncommons_maths_uncommons_maths_1_2_2a.xml" afterPath="$PROJECT_DIR$/../ScalaSyncCore/.idea/libraries/SBT__org_uncommons_maths_uncommons_maths_1_2_2a.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ScalaSyncCore/.idea/modules/ScalaSyncCore.iml" afterPath="$PROJECT_DIR$/../ScalaSyncCore/.idea/modules/ScalaSyncCore.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ScalaSyncServer/src/main/scala/org/scalasync/ScalaSyncServer/ScalaSyncServer.scala" afterPath="$PROJECT_DIR$/../ScalaSyncServer/src/main/scala/org/scalasync/ScalaSyncServer/ScalaSyncServer.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ScalaSyncCore/project/build.scala" afterPath="$PROJECT_DIR$/../ScalaSyncCore/project/build.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ScalaSyncCore/src/main/scala/scalasync/server/mongoPersistances.scala" afterPath="$PROJECT_DIR$/../ScalaSyncCore/src/main/scala/scalasync/server/mongoPersistances.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ScalaSyncCore/.idea/vcs.xml" afterPath="$PROJECT_DIR$/../ScalaSyncCore/.idea/vcs.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../ScalaSyncCore/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../ScalaSyncCore/.idea/workspace.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_ning_async_http_client_1_8_8.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__io_netty_netty_3_9_0_Final.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__net_databinder_dispatch_dispatch_core_2_10_0_11_1.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_slf4j_slf4j_api_1_7_5.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/SBT___scala_compiler_bundle_2_10_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/SBT___scala_compiler_bundle_2_10_4.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__com_fasterxml_jackson_core_jackson_annotations_2_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_fasterxml_jackson_core_jackson_annotations_2_1_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__com_fasterxml_jackson_core_jackson_core_2_1_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_fasterxml_jackson_core_jackson_core_2_1_1.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__com_fasterxml_jackson_core_jackson_databind_2_1_2.xml" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_fasterxml_jackson_core_jackson_databind_2_1_2.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__com_github_tototoshi_play_json4s_jackson_2_10_0_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__com_github_tototoshi_play_json4s_jackson_2_10_0_1_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__io_netty_netty_3_8_0_Final.xml" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__io_netty_netty_3_8_0_Final.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_json4s_json4s_jackson_2_10_3_1_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_json4s_json4s_jackson_2_10_3_1_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_scala_lang_scala_library_2_10_4.xml" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_scala_lang_scala_library_2_10_4.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_slf4j_slf4j_api_1_6_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_slf4j_slf4j_api_1_6_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_specs2_scalaz_core_2_10_7_0_0.xml" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_specs2_scalaz_core_2_10_7_0_0.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/SBT__org_specs2_specs2_2_10_1_13.xml" afterPath="$PROJECT_DIR$/.idea/libraries/SBT__org_specs2_specs2_2_10_1_13.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/ScalaSyncClient-build.iml" afterPath="$PROJECT_DIR$/.idea/modules/ScalaSyncClient-build.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules/ScalaSyncClient.iml" afterPath="$PROJECT_DIR$/.idea/modules/ScalaSyncClient.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/build.scala" afterPath="$PROJECT_DIR$/project/build.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/scala/scalasync/client/client.scala" afterPath="$PROJECT_DIR$/src/main/scala/scalasync/client/client.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="ScalaSync.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -58,10 +47,10 @@
       <file leaf-file-name="client.scala" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/scala/scalasync/client/client.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.13626374" vertical-offset="20" max-vertical-offset="2286">
-              <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+            <state vertical-scroll-proportion="0.6619519" vertical-offset="486" max-vertical-offset="3366">
+              <caret line="53" column="3" selection-start-line="53" selection-start-column="3" selection-end-line="53" selection-end-column="3" />
               <folding>
-                <element signature="e#26#45#0" expanded="true" />
+                <element signature="e#27#44#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -70,11 +59,9 @@
       <file leaf-file-name="build.scala" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/project/build.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="756">
-              <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
-              <folding>
-                <element signature="e#0#12#0" expanded="true" />
-              </folding>
+            <state vertical-scroll-proportion="0.0" vertical-offset="378" max-vertical-offset="774">
+              <caret line="21" column="61" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -142,10 +129,9 @@
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="960" />
-    <option name="y" value="35" />
-    <option name="width" value="960" />
-    <option name="height" value="1045" />
+    <option name="y" value="19" />
+    <option name="width" value="718" />
+    <option name="height" value="815" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -173,7 +159,6 @@
       <sortByType />
     </navigator>
     <panes>
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -202,126 +187,13 @@
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scala" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="RepoFileSpec" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scala.scala" />
-              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ScalaSync" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ScalaSyncClient" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="test" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ScalaSync" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ScalaSyncClient" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="scala" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="client.scala" />
-              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ScalaSync" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ScalaSyncClient" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ScalaSync" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ScalaSyncClient" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
               <option name="myItemId" value="project" />
               <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ScalaSync" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="ScalaSyncClient" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="project" />
-              <option name="myItemType" value="com.android.tools.idea.gradle.projectView.AndroidPsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="build.scala" />
-              <option name="myItemType" value="org.jetbrains.plugins.scala.components.ScalaDefsProjectViewProvider$ScalaFileTreeNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -604,7 +476,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="960" y="35" width="960" height="1045" extended-state="1" />
+    <frame x="0" y="19" width="718" height="815" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -624,7 +496,7 @@
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2290795" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.22841226" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32706374" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Gradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -665,9 +537,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="252" max-vertical-offset="756">
           <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -692,7 +562,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2304">
           <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
           <folding>
-            <element signature="e#26#45#0" expanded="true" />
+            <element signature="e#27#44#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -701,9 +571,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="324" max-vertical-offset="756">
           <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -735,7 +603,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2304">
           <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
           <folding>
-            <element signature="e#26#45#0" expanded="true" />
+            <element signature="e#27#44#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -744,9 +612,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="738">
           <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -778,7 +644,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2304">
           <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
           <folding>
-            <element signature="e#26#45#0" expanded="true" />
+            <element signature="e#27#44#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -787,9 +653,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="324" max-vertical-offset="756">
           <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -821,7 +685,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="126" max-vertical-offset="2304">
           <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
           <folding>
-            <element signature="e#26#45#0" expanded="true" />
+            <element signature="e#27#44#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -830,9 +694,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="306" max-vertical-offset="738">
           <caret line="18" column="6" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -864,7 +726,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="144" max-vertical-offset="2250">
           <caret line="8" column="8" selection-start-line="8" selection-start-column="8" selection-end-line="8" selection-end-column="8" />
           <folding>
-            <element signature="e#26#45#0" expanded="true" />
+            <element signature="e#27#44#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -873,9 +735,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="432" max-vertical-offset="756">
           <caret line="24" column="50" selection-start-line="24" selection-start-column="50" selection-end-line="24" selection-end-column="50" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -899,7 +759,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="270" max-vertical-offset="864">
           <caret line="15" column="25" selection-start-line="15" selection-start-column="25" selection-end-line="15" selection-end-column="25" />
           <folding>
-            <element signature="e#26#45#0" expanded="true" />
+            <element signature="e#27#44#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -923,7 +783,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="576" max-vertical-offset="684">
           <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
           <folding>
-            <element signature="e#26#45#0" expanded="true" />
+            <element signature="e#27#44#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -954,7 +814,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="480" max-vertical-offset="570">
           <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
           <folding>
-            <element signature="e#26#45#0" expanded="true" />
+            <element signature="e#27#44#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -985,7 +845,7 @@
         <state vertical-scroll-proportion="0.0" vertical-offset="480" max-vertical-offset="570">
           <caret line="32" column="1" selection-start-line="32" selection-start-column="1" selection-end-line="32" selection-end-column="1" />
           <folding>
-            <element signature="e#26#45#0" expanded="true" />
+            <element signature="e#27#44#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1054,6 +914,14 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/project/build.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="49" max-vertical-offset="774">
+          <caret line="21" column="61" selection-start-line="21" selection-start-column="61" selection-end-line="21" selection-end-column="61" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/scala/RepoFileSpec/scala.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0" vertical-offset="3" max-vertical-offset="2718">
@@ -1062,22 +930,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/project/build.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="756">
-          <caret line="26" column="30" selection-start-line="26" selection-start-column="30" selection-end-line="26" selection-end-column="30" />
-          <folding>
-            <element signature="e#0#12#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/scala/scalasync/client/client.scala">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.13626374" vertical-offset="20" max-vertical-offset="2286">
-          <caret line="8" column="16" selection-start-line="8" selection-start-column="16" selection-end-line="8" selection-end-column="16" />
+        <state vertical-scroll-proportion="0.6619519" vertical-offset="486" max-vertical-offset="3366">
+          <caret line="53" column="3" selection-start-line="53" selection-start-column="3" selection-end-line="53" selection-end-column="3" />
           <folding>
-            <element signature="e#26#45#0" expanded="true" />
+            <element signature="e#27#44#0" expanded="true" />
           </folding>
         </state>
       </provider>
