@@ -32,11 +32,6 @@ http(post >>> System.out)
   val post = server << Map(
     "id" -> "42",
   ) << ("name","filename", getStream)
-*/
-trait dispatchSupport {
-  import scala.concurrent.ExecutionContext.Implicits.global
-
-  def postFile(rf:RepoFile)={
  /*   val myRequest = url("http://127.0.0.1:8080/upload")
     myRequest.POST
     myRequest.setContentType("multipart/form-data","UTF8")
@@ -46,16 +41,22 @@ trait dispatchSupport {
       ) << ("file", getStream(rf.indep_path))*/
     //val r =dispatch.Http(myRequest OK as.String).option
 */
+*/
+trait dispatchSupport {
+  import scala.concurrent.ExecutionContext.Implicits.global
+
+  def postFile(rf:RepoFile)={
+
     val local: Req = host("127.0.0.1", 8080)
     val encoded:Req = local.setContentType("multipart/form-data", "UTF-8").setHeader("Transfer-Encoding", "chunked").POST / "upload"
+    val encoded2:Req  =encoded<<? Map("filename"->rf.sum)
     import com.ning.http.multipart.FilePart
-    val filed: Req = encoded.addBodyPart(new FilePart("file", new java.io.File("/home/eric/devel/scalasync/ScalaSyncClient/testset3/ajax-loader.gif")))
+    val filed: Req = encoded2.addBodyPart(new FilePart("file", new java.io.File(rf.indep_path)))
 
     val f = Http(filed)
     val c = f()
-    println(c)
-
   }
+
   def getStream (x:String)=	new  java.io.FileInputStream(new java.io.File(x))
 
 

@@ -49,13 +49,14 @@ class ScalaSyncServer extends ScalasyncserverStack with FileUploadSupport with J
   post("/upload") {
     fileParams.get("file") match {
       case Some(file) =>
-        val fout = new FileOutputStream(new File("/tmp/bin"))//new File("/tmp/"+file.getName).getCanonicalFile)
+        val filename = params.getOrElse("filename","fail");
+        println("writing:"+filename)
+        val fout = new FileOutputStream(new File("/tmp/bin/"+filename))//new File("/tmp/"+file.getName).getCanonicalFile)
         fout.write(file.get())
         Ok("success")/*file.get(), Map(
           "Content-Type" -> (file.contentType.getOrElse("application/octet-stream")),
           "Content-Disposition" -> ("attachment; filename=\"" + file.name + "\"")
         ))*/
-
     }
   }
   post("/file") {
