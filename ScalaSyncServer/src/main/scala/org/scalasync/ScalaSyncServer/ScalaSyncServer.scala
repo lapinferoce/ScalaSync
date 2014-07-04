@@ -61,6 +61,7 @@ class ScalaSyncServer extends ScalasyncserverStack with FileUploadSupport with J
   }
   post("/file") {
     val data = parsedBody.extract[UploadItem]
+
     Ok(data)
   }
 

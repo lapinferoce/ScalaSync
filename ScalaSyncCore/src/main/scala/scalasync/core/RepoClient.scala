@@ -1,6 +1,6 @@
 package scalasync.core
 
-import java.io.File
+//import java.io.File
 import scala.collection.immutable.HashMap
 
 
@@ -11,7 +11,7 @@ import scalax.io._
 /**
  * Created by lapinferoce on 6/22/14.
  */
-case class RepoClient(repoDir:File) extends Repo {
+case class RepoClient(repoDir:java.io.File) extends Repo {
   path = repoDir.getCanonicalPath
 
   var map     = new HashMap[String,RepoFile]()
@@ -24,7 +24,7 @@ case class RepoClient(repoDir:File) extends Repo {
     files
   }
 
-  def mkRepoFileFromFile(f:File):RepoFile={
+  def mkRepoFileFromFile(f:java.io.File):RepoFile={
     val fullpath = f.getCanonicalPath
     val filename = removeRoot(fullpath)
     (new RepoFile(filename,fullpath,null)).computeSum
@@ -55,7 +55,7 @@ case class RepoClient(repoDir:File) extends Repo {
     arr foreach { rf => map++=Map(rf.sum-> rf) }
   }
   def unSerializeFrom(from:String):Unit={
-    if((new File(from).exists))
+    if((new java.io.File(from).exists))
         fromJS(fileUtil.readFromFile(from))
   }
 

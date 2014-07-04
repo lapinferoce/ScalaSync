@@ -11,8 +11,10 @@ case class RepoFileWithOutSum(filename:String,original_path:String) extends Abst
   val sum = fileUtil.computeSum(original_path, original_path)
 }*/
 
-
-case class RepoFile(filename:String,indep_path:String,sum:String){
+trait RepoFileInterface{
+  def dump():String
+}
+case class RepoFile(filename:String,indep_path:String,sum:String) extends RepoFileInterface{
 
   def isSumValid(sum:String):Boolean = (computeSum==sum)
 
@@ -26,6 +28,11 @@ case class RepoFile(filename:String,indep_path:String,sum:String){
   }
 }
 
+case class RepoFileServer(filename:String,indep_path:String,sum:String,deleted:Boolean) extends RepoFileInterface{
+  def dump():String={
+    "["+filename+"|"+indep_path+"|"+sum+"|"+(if (deleted){"deleted"}else{"exist"})+"]"
+  }
+}
 /*
   def computeSum():RepoFile={
 
