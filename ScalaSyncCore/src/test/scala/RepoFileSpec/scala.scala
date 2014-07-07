@@ -56,9 +56,8 @@ class persistanceSpec extends FlatSpec with ShouldMatchers {
 
    val repofile = new RepoFileServer("README.md", (new File("./testset/README.md")).getPath, "abcd", true)
    mongoPersistances.addMetaData(repofile)
-   mongoPersistances.findMetaBySum(repofile.sum) should equal repofile
+   mongoPersistances.findMetaBySum(repofile.sum) shouldBe Some(repofile)
 
-   r should equal (true)
  }
 }
 

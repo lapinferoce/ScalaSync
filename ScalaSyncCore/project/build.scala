@@ -28,9 +28,10 @@ object ScalasyncserverBuild extends Build {
       "com.github.tototoshi" %% "play-json4s-test-jackson" % "0.1.0" % "test",
       "com.github.scala-incubator.io" %% "scala-io-core" % "0.4.2",
       "com.github.scala-incubator.io" %% "scala-io-file" % "0.4.2",
-      "com.typesafe.akka" % "akka-actor_2.10" % "2.3.2",
-      "com.typesafe.akka" % "akka-remote_2.10" % "2.3.2",
-      "org.mongodb" %% "casbah" % "2.5.0"
+      //"com.typesafe.akka" % "akka-actor_2.10" % "2.3.2",
+      //"com.typesafe.akka" % "akka-remote_2.10" % "2.3.2",
+      "org.mongodb" %% "casbah" % "2.5.0",
+      "com.novus" %% "salat" % "1.9.8"
 
 /*        "org.scalatra" %% "scalatra" % ScalatraVersion,
         "org.scalatra" %% "scalatra-scalate" % ScalatraVersion,
