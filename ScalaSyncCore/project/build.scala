@@ -32,7 +32,6 @@ object ScalasyncserverBuild extends Build {
       //"com.typesafe.akka" % "akka-remote_2.10" % "2.3.2",
       "org.mongodb" %% "casbah" % "2.5.0",
       "com.novus" %% "salat" % "1.9.8"
-
 /*        "org.scalatra" %% "scalatra" % ScalatraVersion,
         "org.scalatra" %% "scalatra-scalate" % ScalatraVersion,
         "org.scalatra" %% "scalatra-specs2" % ScalatraVersion % "test",

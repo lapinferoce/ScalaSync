@@ -8,7 +8,7 @@ import org.scalatra.servlet.FileUploadSupport
 
 // JSON handling support from Scalatra
 import org.scalatra.json._
-
+import scalasync.core._
 
 
 
@@ -25,11 +25,11 @@ class ScalaSyncServer extends ScalasyncserverStack with FileUploadSupport with J
   }
 
   get("/") {
-    UploadItem(1, "bb")
+//    UploadItem(1, "bb")
   }
 
   get("/Ho") {
-    UploadItem(2, "bb")
+  //  UploadItem(2, "bb")
   }
 
 /*  post("/uploadjs") {
@@ -57,11 +57,11 @@ class ScalaSyncServer extends ScalasyncserverStack with FileUploadSupport with J
           "Content-Type" -> (file.contentType.getOrElse("application/octet-stream")),
           "Content-Disposition" -> ("attachment; filename=\"" + file.name + "\"")
         ))*/
+      case None => halt(404)
     }
   }
   post("/file") {
-    val data = parsedBody.extract[UploadItem]
-
+    val data = parsedBody.extract[RepoFileServer]
     Ok(data)
   }
 
@@ -72,4 +72,4 @@ class ScalaSyncServer extends ScalasyncserverStack with FileUploadSupport with J
 
 }
 
-case class UploadItem(id: Int, name: String)
+//case class UploadItem(id: Int, name: String)
