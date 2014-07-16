@@ -12,7 +12,7 @@ import scalasync.core.RepoFileServer
  * Created by eric on 7/7/14.
  */
 object RepoFileServerDAO extends SalatDAO[RepoFileServer, ObjectId](
-   collection = MongoConnection()("ScalaSync")("meta")
+   collection = MongoConnection("10.61.32.113:27017")("ScalaSync")("meta")
 )
 
 /*

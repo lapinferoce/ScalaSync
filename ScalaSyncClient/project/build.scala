@@ -20,6 +20,7 @@ object ScalasyncserverBuild extends Build {
 
       libraryDependencies ++= Seq(
       "net.databinder.dispatch" %% "dispatch-core" % "0.11.1",
+      "net.databinder.dispatch" %% "dispatch-json4s-jackson" % "0.11.1",
       "org.scalacheck" %% "scalacheck" % "1.10.0" % "test",
       "org.specs2" %% "specs2" % "1.13",
       "org.scalatest" %% "scalatest" % "2.0.M5b",

@@ -45,7 +45,7 @@ http(post >>> System.out)
 trait dispatchSupport {
   import scala.concurrent.ExecutionContext.Implicits.global
 
-  def postFile(rf:RepoFile)={
+  def uploadFile(rf:RepoFile)={
 
     val local: Req = host("127.0.0.1", 8080)
     val encoded:Req = local.setContentType("multipart/form-data", "UTF-8").setHeader("Transfer-Encoding", "chunked").POST / "upload"
@@ -55,9 +55,20 @@ trait dispatchSupport {
 
     val f = Http(filed)
     val c = f()
+
   }
 
   def getStream (x:String)=	new  java.io.FileInputStream(new java.io.File(x))
+
+
+  def pushFile(rf:RepoFile)={
+    val local: Req = host("127.0.0.1", 8080)
+    val encoded:Req = local.setContentType("application/json","UTF-8").POST / "file"
+    val filed:Req = encoded.setBody(rf.toJS)
+
+    val f = Http(filed)
+    val c = f()
+  }
 
 
 }
@@ -82,9 +93,11 @@ object Client extends App with dispatchSupport{
         added.foreach{id=>
           for(fileToSend <- repo.map.get(id))
           {
-            println("sending :"+fileToSend.filename+":"+fileToSend.sum)
+            println("sending :"+fileToSend.sum+":"+fileToSend.filename)
             //clientActor ! doSend(fileToSend)
-            postFile(fileToSend)
+            uploadFile(fileToSend)
+            println ("commiting " + fileToSend.sum+":"+fileToSend.filename)
+            pushFile(fileToSend)
           }
 
         }

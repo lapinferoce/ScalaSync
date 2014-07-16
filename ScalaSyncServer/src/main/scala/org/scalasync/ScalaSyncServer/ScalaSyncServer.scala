@@ -57,17 +57,18 @@ class ScalaSyncServer extends ScalasyncserverStack with FileUploadSupport with J
           "Content-Type" -> (file.contentType.getOrElse("application/octet-stream")),
           "Content-Disposition" -> ("attachment; filename=\"" + file.name + "\"")
         ))*/
-      case None => halt(404)
+      case None => halt(500)
     }
   }
   post("/file") {
-    val data = parsedBody.extract[RepoFileServer]
-    Ok(data)
+    val data = parsedBody.extract[RepoFile]
+    println("registering:"+data.filename)
+    Ok(data.toServer(false))
   }
 
-  get("/file"){
-    ()
-  }
+/*  get("/file"){
+    Ok("yes")
+  }*/
 
 
 }
